@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM openshift/python:3.9-ubi8
 MAINTAINER Shekhar Gulati "shekhargulati84@gmail.com"
 COPY . /app
 WORKDIR /app
